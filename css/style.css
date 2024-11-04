@@ -1527,6 +1527,31 @@ a:hover {
 .vertical-tabs .tab-item__text-holder p {
   margin: 0
 }
+.vertical-tabs .tab-item__text-holder h2,
+.vertical-tabs .tab-item__text-holder h3,
+.vertical-tabs .tab-item__text-holder h4,
+.vertical-tabs .tab-item__text-holder h5,
+.vertical-tabs .tab-item__text-holder h6{
+  font-weight: 700;
+}
+.vertical-tabs .tab-item__text-holder h2:not(:last-child) ,
+.vertical-tabs .tab-item__text-holder h3:not(:last-child) ,
+.vertical-tabs .tab-item__text-holder h4:not(:last-child) ,
+.vertical-tabs .tab-item__text-holder h5:not(:last-child) ,
+.vertical-tabs .tab-item__text-holder h6:not(:last-child) {
+  margin-bottom: 10px;
+}
+.vertical-tabs .tab-item__text-holder ul li{
+  list-style-type: disc;
+}
+.vertical-tabs .tab-item__text-holder ul,.vertical-tabs .tab-item__text-holder ol{
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.vertical-tabs .tab-item__text-holder ul:not(:last-child),.vertical-tabs .tab-item__text-holder ol:not(:last-child){
+margin-bottom: 10px;
+}
 .vertical-tabs .tab-item__text-holder p:not(:last-child) {
   margin-bottom: 10px
 }
@@ -2634,8 +2659,6 @@ a:hover {
     justify-content: center
   }
   .vertical-tabs {
-    height: 100vh;
-    min-height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center
