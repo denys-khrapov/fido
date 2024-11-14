@@ -77,7 +77,7 @@
             }
             function ReadMore(_jObj, lineNum) {
                 let READ_MORE_LABEL = "Read more ...";
-                let HIDE_LABEL = "Less more";
+                let HIDE_LABEL = "Less";
                 _jObj.each((function() {
                     let jObj = jQuery(this);
                     let lineHeight = parseInt(jObj.children(".hidden-text").css("line-height"), 10);
