@@ -1261,7 +1261,33 @@ a:hover {
 }
 
 .offer .tab-item__text-holder {
-  line-height: 22px
+  line-height: 22px;
+  padding-right: 16px;
+}
+
+.offer .tab-item__text-holder h2,
+.offer .tab-item__text-holder h3,
+.offer .tab-item__text-holder h4,
+.offer .tab-item__text-holder h5,
+.offer .tab-item__text-holder h6 {
+  font-weight: 700;
+}
+
+.offer .tab-item__text-holder ul li {
+  list-style-type: disc;
+}
+
+.offer .tab-item__text-holder ul,
+.offer .tab-item__text-holder ol {
+  padding-left: 20px;
+}
+
+.offer .tab-item__text-holder h2:not(:last-child),
+.offer .tab-item__text-holder h3,
+.offer .tab-item__text-holder h4,
+.offer .tab-item__text-holder h5,
+.offer .tab-item__text-holder h6 {
+  margin-bottom: 16px;
 }
 
 .offer .tab-item__text-holder:not(:last-child) {
@@ -2137,6 +2163,27 @@ a:hover {
   max-width: 800px;
   margin: 0 auto 32px;
   line-height: 1.3;
+}
+
+
+.tabs-events .tab-item__text h2,
+.tabs-events .tab-item__text h3,
+.tabs-events .tab-item__text h4,
+.tabs-events .tab-item__text h5,
+.tabs-events .tab-item__text h6 {
+  font-weight: 700;
+}
+
+.tabs-events .tab-item__text h2:not(:last-child),
+.tabs-events .tab-item__text h3:not(:last-child),
+.tabs-events .tab-item__text h4:not(:last-child),
+.tabs-events .tab-item__text h5:not(:last-child),
+.tabs-events .tab-item__text h6:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.tabs-events .tab-item .btn:not(:last-child){
+margin-bottom: 24px;
 }
 
 .team {
